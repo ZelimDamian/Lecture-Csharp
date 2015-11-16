@@ -27,7 +27,7 @@ namespace LectureDemo
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Basic.Show();
+            AsyncDemo.Show();
         }
     }
 }

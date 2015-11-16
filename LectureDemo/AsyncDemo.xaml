@@ -1,0 +1,14 @@
+﻿<Window x:Class="LectureDemo.AsyncDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Async Demo" Height="541.05" Width="776">
+    <Grid>
+        <Label Content="Status:" HorizontalAlignment="Left" Margin="42,21,0,0" VerticalAlignment="Top"/>
+        <Button Content="Download Async" Margin="150,0,447,82" VerticalAlignment="Bottom" Click="Button_Click"/>
+        <TextBox x:Name="urlTextBox" Height="23" Margin="10,0,10,144" TextWrapping="Wrap" VerticalAlignment="Bottom"/>
+        <Image x:Name="imageControl" Margin="10,52,10,172" Stretch="None"/>
+        <Label x:Name="statusLabel" Content="Waiting for input" HorizontalAlignment="Left" Margin="103,18,0,0" VerticalAlignment="Top" Width="415" FontSize="18"/>
+        <Button x:Name="syncButton" Content="Download Sync" Margin="0,0,171,82" VerticalAlignment="Bottom" Click="syncButton_Click" HorizontalAlignment="Right" Width="171"/>
+
+    </Grid>
+</Window>
