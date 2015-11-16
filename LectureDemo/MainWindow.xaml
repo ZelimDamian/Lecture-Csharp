@@ -4,7 +4,7 @@
         Title="MainWindow" Height="294" Width="678">
     <Grid Margin="0,0,100,301">
         <Button Content="Async Demo" HorizontalAlignment="Left" Margin="43,59,0,-209" VerticalAlignment="Top" Width="235" Click="Button_Click" Height="150"/>
-        <Button Content="PInvoke Demo" HorizontalAlignment="Left" Margin="384,59,-49,-209" VerticalAlignment="Top" Width="235" Click="Button_Click" Height="150"/>
+        <Button Content="PInvoke Demo" HorizontalAlignment="Left" Margin="384,59,-49,-209" VerticalAlignment="Top" Width="235" Click="Button_Click_1" Height="150"/>
 
     </Grid>
 </Window>

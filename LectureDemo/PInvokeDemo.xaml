@@ -1,0 +1,14 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="LectureDemo.PInvokeDemo"
+        Title="PInvokeDemo" Height="431" Width="287">
+    <Grid Margin="0,0,2,10">
+        <Label x:Name="statusLabel" Content="PI = " HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="goButton" Content="Pi Native" Margin="49,106,0,0" VerticalAlignment="Top" Click="piNativeButton_Click" HorizontalAlignment="Left" Width="73"/>
+        <Button Content="Pi Managed" HorizontalAlignment="Left" Margin="158,106,0,0" VerticalAlignment="Top" Width="75" Click="piManagedButton_Click"/>
+        <Label x:Name="timeLabel" Content="" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
+        <Button Content="Matmult Nat" HorizontalAlignment="Left" Margin="49,191,0,0" VerticalAlignment="Top" Width="73" Click="matmultNativeButton_Click"/>
+        <Button Content="Matmult Managed" HorizontalAlignment="Left" Margin="158,191,0,0" VerticalAlignment="Top" Width="75" Click="matmultManagedButton_Click"/>
+    </Grid>
+</Window>
